@@ -30,6 +30,7 @@ init session =
 -- VIEW
 
 
+view : Model -> { title : String, content : Html msg }
 view model =
     { title = "Home"
     , content =

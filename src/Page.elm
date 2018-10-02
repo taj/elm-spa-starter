@@ -6,11 +6,19 @@ import Html.Attributes exposing (..)
 import Route exposing (Route)
 
 
+
+-- PAGE TYPES
+
+
 type Page
     = Other
     | Login
     | Home
     | AboutUs
+
+
+
+-- VIEW
 
 
 view : Page -> { title : String, content : Html msg } -> Document msg

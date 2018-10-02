@@ -158,16 +158,6 @@ subscriptions model =
 
 
 
--- case model of
---     NotFound _ ->
---         Sub.none
---     Redirect _ ->
---         Sub.none
---     -- Session.changes GotSession (Session.navKey (toSession model))
---     Home home ->
---         Sub.map GotHomeMsg (Home.subscriptions home)
---     Login login ->
---         Sub.map GotLoginMsg (Login.subscriptions login)
 -- VIEW
 
 
