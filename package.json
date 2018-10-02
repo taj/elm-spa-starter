@@ -1,7 +1,25 @@
 {
+  "name": "elm-spa-starter",
+  "version": "1.0.0",
+  "description": "Starter Application for ELm Single Page Applications. Support Elm version 0.19",
+  "main": "index.js",
   "devDependencies": {
     "cssnano": "^4.1.4",
     "node-elm-compiler": "^5.0.1",
     "sass": "^1.14.1"
+  },
+  "author": "Tajinder Chumber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tajchumber/elm-spa-starter/issues"
+  },
+  "homepage": "https://github.com/tajchumber/elm-spa-starter",
+  "keywords": [
+    "elm",
+    "parcel-bundler"
+  ],
+  "scripts": {
+    "start": "parcel index.html --port=3000",
+    "build": "parcel build index.html --no-cache"
   }
 }

@@ -6,7 +6,7 @@ It is mostly based on https://github.com/rtfeldman/elm-spa-example and it only i
 
 * Install [Elm](https://elm-lang.org/)
 * (Optional) Install [Parcel](https://parceljs.org/)
-* Run the app: `elm reactor` or `parcel index.html`
+* Run the app: `elm reactor`, `parcel index.html`, `yarn start` or `npm start`
 
 
 ### Full Application Examples:
