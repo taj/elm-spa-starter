@@ -7,3 +7,7 @@ It is mostly based on https://github.com/rtfeldman/elm-spa-example and it only i
 * Install [Elm](https://elm-lang.org/)
 * (Optional) Install [Parcel](https://parceljs.org/)
 * Run the app: `elm reactor` or `parcel index.html`
+
+
+### Full Application Examples:
+For a full application example look at the [Real World Example] (https://github.com/rtfeldman/elm-spa-example) or at [Elm Packages] (https://github.com/elm/package.elm-lang.org)
