@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "node-elm-compiler": "^5.0.1"
+  }
+}
